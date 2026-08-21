@@ -1,6 +1,8 @@
 services:
     database:
         image: 'postgres:latest'
+        ports:
+            - "5432:5432"
         volumes:
             - $HOME/docker/volumes/postgres:/var/lib/postgresql
         environment:
