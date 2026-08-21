@@ -8,7 +8,11 @@ module.exports = {
   development: {
     client: 'pg',
     connection: {
-      
+      host: '127.0.0.1',
+      port: 5432,
+      user: 'postgres',
+      password: 'docker',
+      database: 'docker_workshop_cars',
     }
   },
 };

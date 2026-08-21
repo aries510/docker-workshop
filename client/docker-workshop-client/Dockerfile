@@ -1,10 +1,10 @@
 FROM node:latest
 
-WORKDIR /app
-
 COPY . /app
 
-EXPOSE 3000
+EXPOSE 5173
+
+WORKDIR /app
 
 RUN npm install
 
